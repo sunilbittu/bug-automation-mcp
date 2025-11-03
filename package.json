@@ -1,0 +1,27 @@
+{
+  "name": "bug-automation-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for automated bug reproduction, fixing, and verification using Google Sheets, GitLab, and Playwright",
+  "main": "server.py",
+  "type": "module",
+  "scripts": {
+    "start": "python server.py",
+    "install-deps": "pip install -r requirements.txt && playwright install chromium",
+    "test": "python example.py"
+  },
+  "keywords": [
+    "mcp",
+    "playwright",
+    "gitlab",
+    "google-sheets",
+    "automation",
+    "testing",
+    "bug-tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bug-automation-mcp.git"
+  }
+}
